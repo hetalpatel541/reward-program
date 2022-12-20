@@ -1,0 +1,24 @@
+.home__conatiner {
+  .search{
+    &__container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      
+      input {
+        padding: 5px 10px;
+        margin-left: 10px;
+      }
+    }
+  }
+  
+  .users{
+    &__container {
+      display: flex;
+      
+      div:not(:first-child){ 
+        margin: 0 10px;
+      }
+    }
+  }
+}
